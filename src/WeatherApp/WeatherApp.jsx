@@ -26,7 +26,24 @@ const WeatherApp = ()=>{
         </div>
         <div className='weather-location'>Jaipur</div>
         <div className='data-container'>
-            <div className='element'></div>
+            <div className='element'>
+                <img src={humidity_icon} className='icon'  />
+                <div className='data'>
+                    <div className='humidity-percent'>
+                        64%
+                    </div>
+                    <div className='text'>Humidity</div>
+                </div>
+            </div>
+            <div className='element'>
+                <img src={wind_icon} className='icon'  />
+                <div className='data'>
+                    <div className='humidity-percent'>
+                        18km/h
+                    </div>
+                    <div className='text'>Wind Speed</div>
+                </div>
+            </div>
         </div>
     </div>)
 }
